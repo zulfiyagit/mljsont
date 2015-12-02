@@ -1,0 +1,164 @@
+{
+    "nodes":[
+        {
+            "id":"0",
+            "question":"Беспокоят ли Вас боли в голове и тяжесть в затылке? ",
+            "answers":[
+                {
+                    "nodeId":"21",
+                    "answer":"Yes"
+                },
+                {
+                    "nodeId":"1",
+                    "answer":"No"
+                }
+            ],
+            "footnotes":[
+
+            ],
+            "image":"to_begin_header"
+        },
+        {
+            "id":"1",
+            "question":"Есть ли у Вас сухость во рту?",
+            "answers":[
+                {
+                    "nodeId":"22",
+                    "answer":"Yes"
+                },
+                {
+                    "nodeId":"2",
+                    "answer":"No"
+                }
+            ],
+            "footnotes":[
+
+            ],
+            "image":"eval_guide_header"
+        },
+        {
+            "id":"2",
+            "question":"Потеря веса?",
+            "answers":[
+                {
+                    "nodeId":"3",
+                    "answer":"No"
+                },
+				
+				{
+					"nodeId":"18"
+					"answer":"Yes"
+				}
+            ],
+            "footnotes":[
+                              
+            ],
+            "image":"eval_guide_header"
+        },
+        {
+            "id":"3",
+            "question":"Беспокоят ли Вас боли в сердце?",
+            "answers":[
+                {
+                    "nodeId":"16",
+                    "answer":"Yes"
+                },
+                {
+                    "nodeId":"4",
+                    "answer":"No"
+                }
+            ],
+            "footnotes":[
+               
+            ],
+            "image":"describe_pt_header"
+        },
+        {
+            "id":"4",
+            "question":"ТОшнота, спазмы в животе, боли в области желудка?",
+            "answers":[
+                {
+                    "nodeId":"5",
+                    "answer":"Yes"
+                },
+                {
+                    "nodeId":"6",
+                    "answer":"No"
+                }
+            ],
+            "footnotes":[
+                
+            ],
+            "image":"describe_pt_header"
+        },
+        {
+            "id":"5",
+            "question":"Пищевое отравление",
+            "answers":[
+                
+                }
+            ],
+            "footnotes":[
+                
+            ],
+            "image":"describe_pt_header"
+        },
+        {
+            "id":"6",
+            "question":"Простуда",
+            "answers":[
+                
+            ],
+            "footnotes":[
+                
+            ],
+            "image":"recommendation_header"
+        },
+        {
+            "id":"16",
+            "question":"Гипертония",
+            "answers":[
+                
+            ],
+            "footnotes":[
+                
+            ],
+            "image":"recommendation_header"
+        },
+        {
+            "id":"18",
+            "question":"Возможно вам следует сдать анализы на сахарный диабет!",
+            "answers":[
+                
+            ],
+            "footnotes":[
+                
+            ],
+            "image":"recommendation_header"
+        },
+        {
+            "id":"21",
+            "question":"Возможно у Вас гипертония. Подробнее о ней Вы можете прочитать в справочнике.",
+            "answers":[
+                
+            ],
+            "footnotes":[
+                
+            ],
+            "image":"recommendation_header"
+        },
+        {
+            "id":"22",
+            "question":"Советуем провериться на сахарный диабет":[
+                {
+                    
+                }
+            ],
+            "footnotes":[
+               
+            ],
+            "image":"eval_guide_header"
+        },
+        
+    ]
+}
